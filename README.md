@@ -64,14 +64,15 @@ ActivitiMirror.command options
 
 一些CDN 链接： 
 
-```
+
 http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.22.0.zip
 http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.21.0.zip
 http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.19.0.zip
 http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.18.0.zip
 http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.17.0.zip
 http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.16.4.zip
-```
+
+> PS: 之所以会产生这个，原因还是国内的伟大的 GFW 的功劳。
 
 ## Development
 
@@ -81,7 +82,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/activiti_mirror. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/xiajian/activiti_mirror. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 
 ## License
