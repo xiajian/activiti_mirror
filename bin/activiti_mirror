@@ -1,0 +1,41 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'methadone'
+require "bundler/setup"
+require 'activiti_mirror'
+
+class App
+  include Methadone::Main
+  include Methadone::CLILogging
+
+  main do 
+    if ARGV.empty? || ARGV.length < 1
+      puts 'Usage "activiti_mirror version"'
+      puts '      "activiti_mirror -h" for more infomation'
+      exit 1
+    end
+    
+    options[:version] = ARGV[0]
+    
+    unless options[:H].nil? || options[:H].empty?
+      options[:hosts] = ([] << options[:H])
+    end
+    
+    # puts options
+    
+    ActivitiMirror.command options
+  end
+
+  version ActivitiMirror::VERSION
+
+  description 'activiti_mirror is a tool, which use to upload activit file to qiniu and download it!'
+  
+  on("--verbose","Be verbose")
+  
+  on("-H REMOTE_SERVER_ADDRESS","--host-address","Host server Address", /^\w+@\d+\.\d+\.\d+\.\d+$/)
+
+  use_log_level_option :toggle_debug_on_signal => 'USR1'
+
+  go!
+end
