@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["xiajian"]
   spec.email         = ["jhqy2011@gmail.com"]
 
-  spec.summary       = %q{activiti_mirror is a tool, which use to upload activit file to qiniu and download it}
-  spec.description   = %q{activiti_mirror is a tool, which use to upload activit file to qiniu and download it}
+  spec.summary       = %q{activiti_mirror is a tool, which use to upload activit release zip file to qiniu and download it}
+  spec.description   = %q{activiti_mirror is a tool, which use to upload activit release zip file to qiniu and download it}
   spec.homepage      = "https://github.com/xiajian/activiti_mirror"
   spec.license       = "mit"
 
