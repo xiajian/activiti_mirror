@@ -65,12 +65,12 @@ ActivitiMirror.command options
 一些CDN 链接： 
 
 
-http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.22.0.zip
-http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.21.0.zip
-http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.19.0.zip
-http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.18.0.zip
-http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.17.0.zip
-http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.16.4.zip
+1. http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.22.0.zip
+1. http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.21.0.zip
+1. http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.19.0.zip
+1. http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.18.0.zip
+1. http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.17.0.zip
+1. http://ognvcf5x6.bkt.clouddn.com/bbs_image/activiti-5.16.4.zip
 
 > PS: 之所以会产生这个，原因还是国内的伟大的 GFW 的功劳。
 
